@@ -1,1 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 210px;
+}
+.container-custom{
+    max-width: 1215px;
+    margin: auto;
+    display: block;
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    height: 100px;
+    margin-bottom: 80px;
+}
+header nav{
+    float: right;
+   transition: 0.2s;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 40px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+    z-index: 999;
+    color: #fff;
+    margin-left: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_logo{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 40px;
+    float: left;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 20px #000;
+    border-left: solid 3px red;
+    padding-left: 5px;
+}
+.title{
+    font-family: 'Grand Hotel', cursive;
+    color: yellow;
+    font-size: 125px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.hero_text{
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.order_now{
+    font-family:'Montserrat', sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: yellow;
+    display: inline-block;
+    font-weight: bold;
+    width: 240px;
+    border: none;
+    margin-left: 30px;
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+}
+.best_sells{
+    background-color: #fff;
+    padding: 100px 0 100px 0;
+}
+.seller_title{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 75px;
+    color: #333333;
+}
+.seller_text{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    color: #333333;
+}
+.best_sells img{
+    border-radius: 50%;
+}
+.best_sells h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 42px;
+    color:#333333;
+    margin: 15px 0 25px 0;
+}
+.seller_card_txt{
+    font-family:'Montserrat', sans-serif;
+    color:#333333;
+    font-size: 17px;
+}
+.taste_design{
+    background-image: url("../img/seller_design.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    }
+.taste{
+    background-image: url("../img/statistic.jpg");
+    width: 100%;
+    padding: 100px 0 150px 0;
+}
+.taste_design img{
+    border-radius: 50%;
+    margin-top: -80px;
+    width: 85%;
+}
+.design_text{
+    margin-top: 20px;
+}
+.design_text h1{
+    font-family: 'Grand Hotel', cursive;
+    color: yellow;
+    font-size: 100px;
+}
+.design_text p{
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+}
+.taste_title{
+    text-align: center;
+    color: rgb(236, 236, 22);
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+}
+.tatse_txt{
+    font-size: 25px;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+.statistic_card{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 29px;
+}
+.stat_num{
+    color: yellow;
+    font-size: 51px;
+    font-weight: bold;
+}
+.chicken{
+    background-image: url("../img/seller_design.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 50px 0;
+    margin-top: -10px;
+    transform: rotate(180deg);
+}
+.design_text2{
+    display: inline-block;
+    transform: rotate(180deg);
+    margin-top: 0px;
+}
 
+.design_text2 h1{
+    font-family: 'Grand Hotel', cursive;
+    color: yellow;
+    font-size: 100px;
+}
+.design_text2 p{
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+}
+.chicken img{
+    border-radius: 50%;
+    margin-top: -100px;
+    width: 85%;
+}
+.line{
+    padding: 30px;
+}
+.zuta{
+    background-image: url("../img/zuta.jpg");
+    background-size: cover;
+    
+}
+.yl_overvaly{
+    padding: 265px 0 230px 0;
+    background-color: rgba(255, 204, 42, 0.7);
+}
+.yl_overvaly p{
+    font-size: 45px;
+    color: #333333;
+    font-family:'Montserrat', sans-serif;
+}
+.yl_overvaly h1{
+    font-size: 71px;
+    color: #333333;
+    font-family: 'Grand Hotel', cursive;
+}
+.form{
+    background-image: url("../img/form.jpg");
+    background-size: cover;
+    padding: 150px 0 200px 0;
+}
+.form h1{
+    color: #333333;;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+}
+.form p{
+    font-size: 30px;
+    margin-top: 55px;
+    color: #333333;
+    font-family:'Montserrat', sans-serif;
+}
+.form form input{
+    background-color: #fff;
+    box-shadow:  0 0 5px #333333;
+    border: none;
+    width: 40%;
+    outline: none;
+    padding: 10px;
+}
+.form form button{
+    background-color: yellow;
+    border: none;
+    width: 10%;
+    padding: 10px;
+    transition: 0.2s;
+    box-shadow:  0 0 5px #333333;
+    margin-left: -5px;
+}
+footer{
+    background-color: #303030;
+    padding: 160px 0 200px 0;
+}
+footer .footer_title_div ul{
+   padding: 0;
+}
+footer .footer_title_div ul li{
+    display: inline-block;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 20px;
+    text-align: center;
+ 
+}
+footer .footer_title_div ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+}
+footer p{
+    color: #fff;
+    font-size: 24px;
+    font-family:arial;
+}
+footer h3{
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 27px;
+}
+footer .container .row .col-md-2 ul{
+    padding: 0;
+}
+footer .container .row .col-md-2 ul li{
+    list-style: none;
+}
+footer .container .row .col-md-2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+}
+
+footer .container .row .col-md-3 ul{
+    padding: 0;
+}
+footer .container .row .col-md-3 ul li{
+    list-style: none;
+}
+footer .container .row .col-md-3 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+}
+.hamburger{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+    color: #000;
+    display: none;
+    float: right;
+    margin-right: 20px;
+}
+.close{
+    color: #fff;
+    font-size: 35px;
+    float: right;
+    cursor: pointer;
+    display: none;
+    margin-right: 12px;
+}
+.order_now:hover{
+   background-color: red;
+}
+header nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.header_logo:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.form form button:hover{
+    background-color: red;
+}

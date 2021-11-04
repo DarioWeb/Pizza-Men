@@ -1,0 +1,100 @@
+@media(max-width:1200px){
+    .hero_text{
+        text-shadow: 0 0 20px #fff;
+    }
+    header nav{
+        width: 0;
+        height: 100vh;
+        position: fixed;
+        background-color: #333;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        overflow: hidden;
+    }
+    header nav ul li{
+        display: block;
+        
+    }
+    header nav ul li a{
+        margin-left: 20px;
+    }
+    .close{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+
+@media(max-width:991px){
+    .prazna_5{
+        display: none;
+    }
+    .design_text{
+        margin-top: 0px;
+    }
+    .taste_design img{
+        margin-top: 110px;
+        width: 100%;
+    }
+    .statistic_card {
+        width: 100px;
+        height: 100px;
+        padding-top: 18px;
+        font-size: 15px;
+    }
+    .stat_num {
+       
+        font-size: 28px;
+       
+    }
+    .chicken img {
+        margin-top: 100px;
+        width: 100%;
+    }
+    .form form button{
+        width: auto;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:767px){
+    .statistic_card{
+        width: 200px;
+        height: 200px;
+        padding-top: 50px;
+        font-size: 29px;
+    }
+    .stat_num{
+        font-size: 51px;
+    }
+    .design_text2{
+        margin-top: 60px;
+    }
+    .best_sells{
+        padding: 100px 0 10px 0;
+    }
+    .taste_design{
+        padding: 10px 0 100px 0;
+    }
+    .chicken{
+        padding:10px 0 10px 0;
+    }
+    .line{
+        padding: 0;
+    }
+    p,h1,h2,h3,ul li{
+        text-align: center;
+    }
+    footer .footer_title_div{
+        text-align: -webkit-center;
+    }
+    .order_now{
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+}
